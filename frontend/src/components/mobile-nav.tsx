@@ -3,7 +3,7 @@ import { Sheet, SheetContent, SheetDescription, SheetTitle, SheetTrigger } from 
 import { Separator } from './ui/separator'
 import { Button } from './ui/button'
 
-export default function MobileNav() {
+const MobileNav = () => {
   return (
     <Sheet>
         <SheetTrigger>
@@ -21,3 +21,5 @@ export default function MobileNav() {
     </Sheet>
   )
 }
+
+export default MobileNav;
